@@ -4,11 +4,11 @@ A showoff comparison of OpenClaw hosting and VPS providers, highlighting pricing
 
 ## TLDR Comparison
 
-All providers run the same OpenClaw stack, so model support is consistent. The key difference is whether AI credits or bundled models are included for free.
+All providers run the same OpenClaw stack, so model support is consistent and all support BYOK. The key difference is whether AI credits or bundled models are included for free.
 
 | Provider | Starting Price | AI Credits | Unique Features |
 |----------|---------------|------------|----------------|
-| [ClawHost.chat](https://clawhost.chat/) | $9.99/mo | Kimi K2.5 included | Most affordable, bundled Kimi K2.5 LLM |
+| [ClawHost.chat](https://clawhost.chat/) | $9.99/mo | Kimi K2.5 included | Most affordable, bundled Kimi K2.5 LLM, 1-minute deployment |
 | [ClawCloud.sh](https://www.clawcloud.sh/pricing) | $29/mo | $8-$60/mo | Most comprehensive feature set, multiple tiers, BYOK |
 | [xCloud](https://xcloud.host/openclaw-hosting) | $24/mo | Not specified | 5-star rating from 284 reviews, easiest setup |
 | [ClawHost.cloud](https://clawhost.cloud/) | $10-$50/mo | Not specified | Developer control, global locations, self-hosted, 45+ server options |
@@ -44,8 +44,8 @@ This list covers 6 working OpenClaw hosting and VPS services, providing details 
 - CPU: AMD EPYC 9354
 - 2GB RAM
 - One-click deployment, no technical knowledge required
+- 1-minute deployment
 - Supports Claude, GPT-4o, Gemini, Kimi K2.5, and any OpenAI-compatible models
-- Multi-channel support: Telegram, WhatsApp, Slack, Discord, Signal, iMessage
 - Free access to Kimi K2.5 (frontier-level model with 256K context window)
 - **Excellent value for money** with powerful LLM included
 
