@@ -17,6 +17,7 @@ All providers run the same OpenClaw stack, so model support is consistent and al
 | [ClawCloud.net](https://clawcloud.net/) | $49/mo | $15 included | Fastest deployment (1 minute), includes API credits |
 | [ClawHosters](https://clawhosters.com/) | €19/mo (~$21) | Gemini Flash & DeepSeek included | EU-based (Germany), multi-platform, SSH access, ZeroTier VPN, personality wizard, skill system |
 | [GetClawCloud](https://GetClawCloud.com/) | 7-Day Free Trial | 2,000,000 Daily Tokens (Trial) | Risk-Free Power: 2M free daily tokens during trial, then BYOK. NVMe persistence, SSH, dedicated EU nodes. |
+| [American Claw](https://americanclaw.ai/) | $15/mo | Optional credit packs from $5 (no subscription) | Dedicated US instance per customer, durable agent state via daily filesystem commits (survives upgrades/migrations), WhatsApp/Telegram/Discord, 5-min setup |
 
 ### ⚠️ Raw VPS Providers (No Bundled AI)
 
@@ -33,7 +34,7 @@ OpenClaw is an open-source, self-hostable AI agent platform that runs LLM-powere
 
 ## Overview
 
-This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
+This list covers 10 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
 
 - 💰 Pricing plans and free AI credits
 - 🚀 Key features and differentiators
@@ -158,6 +159,22 @@ This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS option
 - High-Performance Infrastructure: Hosted on dedicated EU nodes (Germany) with enterprise-grade NVMe persistent storage
 - Zero-Config Deployment: 1-click setup gets your OpenClaw instance online in minutes
 - Always-On Production Runtime: Self-healing infrastructure with persistent execution
+
+### 8. American Claw
+**Website**: https://americanclaw.ai/
+
+**Pricing:**
+- **Solo**: $15/month (BYOK, 1 agent, 1 channel, dedicated instance)
+- **Standard**: $29/month (unlimited channels including email, priority support)
+- **Credit packs**: from $5 one-time (managed LLM, no subscription required)
+- **White-glove**: $1,999 setup + $199/month managed care
+
+**Key Features:**
+- Durable agent state: daily filesystem commits bake the full container into image layers, so installed skills, credentials, workspace files, and memory survive restarts, version upgrades, and server migrations
+- Dedicated instance per customer (no shared containers), hosted on US servers
+- WhatsApp, Telegram, and Discord channels ready at signup; ~5-minute setup
+- BYOK on subscription plans, or pay-as-you-go managed LLM via credit packs
+- Runs current upstream OpenClaw releases
 
 ## Key Insights
 
