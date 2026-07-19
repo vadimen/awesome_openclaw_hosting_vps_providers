@@ -14,6 +14,7 @@ All providers run the same OpenClaw stack, so model support is consistent and al
 | [KiloClaw](https://kilo.ai/kiloclaw) | $25/mo (early bird) / $49/mo | 500+ models via Kilo Gateway, zero markup | Battle-tested infra (1.5M+ Kilo Code users), 7-day free trial, auto-restart, cron scheduling |
 | [xCloud](https://xcloud.host/openclaw-hosting) | $24/mo | Not specified | 5-star rating from 284 reviews, easiest setup |
 | [OpenClawHosting.io](https://openclawhosting.io/) | $29/mo | Not specified | Most integrations (50+), privacy-first architecture |
+| [Molted](https://www.molted.net/openclaw-hosting) | Pricing on request | BYOK / provider-dependent | Managed OpenClaw runtime for production fleets: persistent/versioned workspaces, browser automation, 1,000+ integrations, email and voice per agent, auto-healing, multi-tenant dashboard, and cloud/on-prem/Swiss deployment options |
 | [ClawCloud.net](https://clawcloud.net/) | $49/mo | $15 included | Fastest deployment (1 minute), includes API credits |
 | [ClawHosters](https://clawhosters.com/) | €19/mo (~$21) | Gemini Flash & DeepSeek included | EU-based (Germany), multi-platform, SSH access, ZeroTier VPN, personality wizard, skill system |
 | [GetClawCloud](https://GetClawCloud.com/) | 7-Day Free Trial | 2,000,000 Daily Tokens (Trial) | Risk-Free Power: 2M free daily tokens during trial, then BYOK. NVMe persistence, SSH, dedicated EU nodes. |
@@ -33,7 +34,7 @@ OpenClaw is an open-source, self-hostable AI agent platform that runs LLM-powere
 
 ## Overview
 
-This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
+This list covers 10 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
 
 - 💰 Pricing plans and free AI credits
 - 🚀 Key features and differentiators
@@ -159,20 +160,36 @@ This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS option
 - Zero-Config Deployment: 1-click setup gets your OpenClaw instance online in minutes
 - Always-On Production Runtime: Self-healing infrastructure with persistent execution
 
+### 8. Molted
+**Website**: [https://www.molted.net/openclaw-hosting](https://www.molted.net/openclaw-hosting)
+
+**Pricing:**
+- Pricing on request
+
+**Key Features:**
+- Managed OpenClaw runtime for agencies, SaaS builders, resellers, and enterprise teams running agents in production
+- Persistent and versioned workspaces with restore points for safer long-running agent operations
+- Browser automation for sites without APIs
+- 1,000+ managed app integrations through the platform runtime
+- Dedicated email and voice per agent
+- Automatic recovery and self-healing for agent/runtime failures
+- Multi-tenant dashboard and white-label API for operating fleets across clients or teams
+- Cloud, on-premise, and Swiss/sovereign deployment options
+
 ## Key Insights
 
 ### Price Range
 - **Most Affordable (OpenClaw)**: PrimeClaws at $9.99/month — plus unlimited GPT-5.3 & DeepSeek V3.2 included
 - **Standard Entry**: $24-$49/month (xCloud, KiloClaw early bird, OpenClawHosting.io, ClawCloud.net)
-- **Premium**: OpenClawHosting.io Business at $149/month
+- **Premium / enterprise runtime**: OpenClawHosting.io Business at $149/month; Molted pricing on request
 - **Budget VPS (no AI)**: Hetzner from ~€3.49/mo, Hostinger from $6.49/mo — cheaper but require self-setup and BYOK
 
 ### Feature Differentiation
 1. **Best AI Bundles**: PrimeClaws gives unlimited GPT-5.3 & DeepSeek V3.2; KiloClaw provides 500+ models via Kilo Gateway (zero markup); ClawHosters includes Gemini Flash & DeepSeek; ClawCloud.net includes $15 credits
 2. **Ease of Use**: xCloud, PrimeClaws, and KiloClaw all focus on simplicity; ClawHosters offers a personality wizard and skill installation via dashboard
 3. **Developer Control**: ClawHosters provides SSH access and ZeroTier VPN; Hetzner and Hostinger offer full root access (but no OpenClaw pre-installed)
-4. **Tool Integrations**: OpenClawHosting.io emphasizes 50+ integrations and privacy-first architecture
-5. **EU Data Residency**: ClawHosters and Hetzner host in Germany for GDPR compliance
+4. **Tool Integrations**: OpenClawHosting.io emphasizes 50+ integrations and privacy-first architecture; Molted adds 1,000+ managed app integrations, browser automation, and per-agent email/voice identity for production fleets
+5. **EU Data Residency / Sovereignty**: ClawHosters and Hetzner host in Germany for GDPR compliance; Molted supports cloud, on-premise, and Swiss/sovereign deployment options
 6. **Raw VPS Option**: Hetzner and Hostinger are listed as reference — they can be cheaper infrastructure for self-hosting OpenClaw, but no AI is bundled and setup requires technical knowledge
 
 ---
