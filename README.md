@@ -17,6 +17,7 @@ All providers run the same OpenClaw stack, so model support is consistent and al
 | [ClawCloud.net](https://clawcloud.net/) | $49/mo | $15 included | Fastest deployment (1 minute), includes API credits |
 | [ClawHosters](https://clawhosters.com/) | €19/mo (~$21) | Gemini Flash & DeepSeek included | EU-based (Germany), multi-platform, SSH access, ZeroTier VPN, personality wizard, skill system |
 | [GetClawCloud](https://GetClawCloud.com/) | 7-Day Free Trial | 2,000,000 Daily Tokens (Trial) | Risk-Free Power: 2M free daily tokens during trial, then BYOK. NVMe persistence, SSH, dedicated EU nodes. |
+| [Lobsterland](https://lobsterland.ing) | $6.90/mo | ❌ None (BYOK, no markup) | Runs **two** runtimes — OpenClaw and Hermes (Nous Research) — with in-place migration between them; 7-day free trial |
 
 ### ⚠️ Raw VPS Providers (No Bundled AI)
 
@@ -158,6 +159,25 @@ This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS option
 - High-Performance Infrastructure: Hosted on dedicated EU nodes (Germany) with enterprise-grade NVMe persistent storage
 - Zero-Config Deployment: 1-click setup gets your OpenClaw instance online in minutes
 - Always-On Production Runtime: Self-healing infrastructure with persistent execution
+
+### 8. Lobsterland
+**Website**: [https://lobsterland.ing](https://lobsterland.ing)
+
+**Pricing:**
+- **Light**: $6.90/month — 1 CPU, 3 GB RAM, 20 GB storage
+- **Medium**: $14.90/month — 2 CPUs, 8 GB RAM, 80 GB storage
+- **Large**: $29.90/month — 4 CPUs, 16 GB RAM, 160 GB storage
+- **Paperclip workspace add-on**: $4.90/month (optional)
+- 7-day free trial on every plan, cancel anytime. Bring your own model keys — no marked-up AI credits.
+
+**Key Features:**
+- Two Agent Runtimes: The only host on this list that runs both upstream OpenClaw and Hermes (Nous Research), with in-place migration between them on the same account
+- Isolated Always-On Instances: No public IP on hosted instances, isolated runtime boundaries, AES-256-GCM encrypted credentials at rest, allowlist-only messaging access
+- Full Operating Surface: Built-in browser chat, Telegram/Slack/WhatsApp channels, cron automation, multi-agent routing, hosted browser, skills management, persistent memory
+- Agent-Discoverable: Publishes an agentskills.io discovery document and an RFC-9727 API catalog, so other AI agents can find and drive the platform
+- BYOK Only: You supply the model keys, so provider pricing is not marked up
+
+**Note:** Hermes is a more focused runtime than OpenClaw — chat, channels, logs and skills — and does not include WhatsApp, workspace, cron, multi-agent routing, the hosted browser, or Paperclip.
 
 ## Key Insights
 
