@@ -171,13 +171,13 @@ This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS option
 - 7-day free trial on every plan, cancel anytime. Bring your own model keys — no marked-up AI credits.
 
 **Key Features:**
-- Two Agent Runtimes: The only host on this list that runs both upstream OpenClaw and Hermes (Nous Research), with in-place migration between them on the same account
+- Two Agent Runtimes: The only host on this list that runs both upstream OpenClaw and Hermes (Nous Research) as full production runtimes, with in-place migration between them on the same account
 - Isolated Always-On Instances: No public IP on hosted instances, isolated runtime boundaries, AES-256-GCM encrypted credentials at rest, allowlist-only messaging access
 - Full Operating Surface: Built-in browser chat, Telegram/Slack/WhatsApp channels, cron automation, multi-agent routing, hosted browser, skills management, persistent memory
 - Agent-Discoverable: Publishes an agentskills.io discovery document and an RFC-9727 API catalog, so other AI agents can find and drive the platform
 - BYOK Only: You supply the model keys, so provider pricing is not marked up
 
-**Runtime scope:** OpenClaw is the full operating surface — channels, cron, workspace, multi-agent routing, hosted browser and Paperclip. Hermes is a focused chat-and-channels runtime: browser chat, Telegram/Slack, logs and skills. Choose per instance, or run both on one account.
+**Runtime scope:** Both runtimes give you browser chat, Telegram/Slack with allowlists, logs, dashboard skills management, the Paperclip workspace, and in-product version upgrades. OpenClaw adds workspace files, cron, multi-agent routing, the hosted browser, usage analytics and WhatsApp; Hermes adds its own native web dashboard. Choose per instance, or run both on one account.
 
 ## Key Insights
 
