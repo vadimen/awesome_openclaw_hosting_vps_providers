@@ -177,7 +177,7 @@ This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS option
 - Agent-Discoverable: Publishes an agentskills.io discovery document and an RFC-9727 API catalog, so other AI agents can find and drive the platform
 - BYOK Only: You supply the model keys, so provider pricing is not marked up
 
-**Note:** Hermes is a more focused runtime than OpenClaw — chat, channels, logs and skills — and does not include WhatsApp, workspace, cron, multi-agent routing, the hosted browser, or Paperclip.
+**Runtime scope:** OpenClaw is the full operating surface — channels, cron, workspace, multi-agent routing, hosted browser and Paperclip. Hermes is a focused chat-and-channels runtime: browser chat, Telegram/Slack, logs and skills. Choose per instance, or run both on one account.
 
 ## Key Insights
 
