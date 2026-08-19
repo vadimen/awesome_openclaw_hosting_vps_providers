@@ -17,6 +17,7 @@ All providers run the same OpenClaw stack, so model support is consistent and al
 | [ClawCloud.net](https://clawcloud.net/) | $49/mo | $15 included | Fastest deployment (1 minute), includes API credits |
 | [ClawHosters](https://clawhosters.com/) | €19/mo (~$21) | Gemini Flash & DeepSeek included | EU-based (Germany), multi-platform, SSH access, ZeroTier VPN, personality wizard, skill system |
 | [GetClawCloud](https://GetClawCloud.com/) | 7-Day Free Trial | 2,000,000 Daily Tokens (Trial) | Risk-Free Power: 2M free daily tokens during trial, then BYOK. NVMe persistence, SSH, dedicated EU nodes. |
+| [OneClickClaw.io](https://oneclickclaw.io/openclaw) | €14.99/mo (~$16) | BYOK, no markup | EU and GDPR first, dedicated single-tenant server, 7-day free trial with no card, signable DPA, human support (ClawCrew, 24 languages) |
 
 ### ⚠️ Raw VPS Providers (No Bundled AI)
 
@@ -33,7 +34,7 @@ OpenClaw is an open-source, self-hostable AI agent platform that runs LLM-powere
 
 ## Overview
 
-This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
+This list covers 10 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
 
 - 💰 Pricing plans and free AI credits
 - 🚀 Key features and differentiators
@@ -158,6 +159,28 @@ This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS option
 - High-Performance Infrastructure: Hosted on dedicated EU nodes (Germany) with enterprise-grade NVMe persistent storage
 - Zero-Config Deployment: 1-click setup gets your OpenClaw instance online in minutes
 - Always-On Production Runtime: Self-healing infrastructure with persistent execution
+
+### 8. OneClickClaw.io
+**Website**: [https://oneclickclaw.io/openclaw](https://oneclickclaw.io/openclaw)
+
+**Pricing Plans:**
+| Plan | Price | Hardware | AI Credits | Features |
+|------|-------|----------|-----------|----------|
+| Starter | €14.99/mo (~$16) | 2 vCPU AMD EPYC, 4GB RAM, 15GB NVMe | BYOK only | 2 TB bandwidth, 1 instance |
+| Hobbyist | €25.99/mo (~$28) | 4 vCPU AMD EPYC, 8GB RAM, 25GB NVMe | BYOK only | 5 TB bandwidth, 1 instance |
+| Pro | €49.99/mo (~$54) | 8 vCPU AMD EPYC, 16GB RAM, 40GB NVMe | BYOK only | 9 TB bandwidth, 1 instance |
+
+**Key Features:**
+- **Built for non-technical users** — no terminal, no Docker, no CLI at any point
+- Fully managed OpenClaw on a **dedicated single-tenant EU server** (Denmark), typically live in under 10 minutes
+- **7-day free trial** on a real dedicated server, email only, no credit card
+- **EU and GDPR first**: EU data residency and a signable Data Processing Agreement (DPA)
+- Security hardening handled for you
+- **Real human support** through ClawCrew, in 24 languages, not a chatbot loop
+- **BYOK with no token markup** — bring your own AI key and pay your provider directly, or sign in with a ChatGPT, Claude or Grok subscription
+- Annual billing available at €12.49 / €20.99 / €39.99 per month
+
+**Note:** Prices are in EUR. USD equivalents are approximate.
 
 ## Key Insights
 
