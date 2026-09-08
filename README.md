@@ -17,6 +17,7 @@ All providers run the same OpenClaw stack, so model support is consistent and al
 | [ClawCloud.net](https://clawcloud.net/) | $49/mo | $15 included | Fastest deployment (1 minute), includes API credits |
 | [ClawHosters](https://clawhosters.com/) | €19/mo (~$21) | Gemini Flash & DeepSeek included | EU-based (Germany), multi-platform, SSH access, ZeroTier VPN, personality wizard, skill system |
 | [GetClawCloud](https://GetClawCloud.com/) | 7-Day Free Trial | 2,000,000 Daily Tokens (Trial) | Risk-Free Power: 2M free daily tokens during trial, then BYOK. NVMe persistence, SSH, dedicated EU nodes. |
+| [DefiSpace Hosting](https://hosting.defispace.com/) | $2.49/mo | ❌ None (BYOK) | Cheapest managed OpenClaw here; 7-day free trial, no card; own subdomain + TLS, persistent disk; HTTP API, MCP server and A2A agent so an agent can order and manage its own pod |
 
 ### ⚠️ Raw VPS Providers (No Bundled AI)
 
@@ -33,7 +34,7 @@ OpenClaw is an open-source, self-hostable AI agent platform that runs LLM-powere
 
 ## Overview
 
-This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
+This list covers 10 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
 
 - 💰 Pricing plans and free AI credits
 - 🚀 Key features and differentiators
@@ -159,9 +160,31 @@ This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS option
 - Zero-Config Deployment: 1-click setup gets your OpenClaw instance online in minutes
 - Always-On Production Runtime: Self-healing infrastructure with persistent execution
 
+### 8. DefiSpace Hosting
+**Website**: [https://hosting.defispace.com/](https://hosting.defispace.com/)
+
+**Pricing:**
+| Plan | Price | Resources |
+|------|-------|-----------|
+| Tiny | $2.49/month | 1 GB RAM · 1 vCPU · 4 GB disk |
+| Small | $4.99/month | 2 GB RAM · 2 vCPU · 6 GB disk |
+| Medium | $9.99/month | 4 GB RAM · 2 vCPU · 8 GB disk |
+| Large | $17.99/month | 8 GB RAM · 4 vCPU · 16 GB disk |
+| Free Trial | 7 days | No credit card required |
+
+**Key Features:**
+- One OpenClaw per pod with its own subdomain and TLS certificate; the Control UI is reachable from anywhere on day one
+- BYOK: bring an OpenAI, Anthropic, DeepSeek or any OpenAI-compatible key — no bundled AI, no markup on tokens
+- Persistent disk: memory and config survive restarts and rebuilds
+- Built for agents as customers: HTTP API, [MCP server](https://hosting.defispace.com/docs/mcp.html) and [A2A agent](https://hosting.defispace.com/docs/a2a.html) can create, check and renew a pod without a human in the loop
+- Also hosts Hermes, n8n, Claude Code, OpenCode and Pi on the same plans
+- Pay by card, USDT/USDC or Telegram Stars (the last two in beta testing)
+- OpenClaw is marked beta on the platform: it runs; the first-run experience is still being polished
+
 ## Key Insights
 
 ### Price Range
+- **Cheapest Managed (BYOK, no AI bundled)**: DefiSpace Hosting from $2.49/month
 - **Most Affordable (OpenClaw)**: PrimeClaws at $9.99/month — plus unlimited GPT-5.3 & DeepSeek V3.2 included
 - **Standard Entry**: $24-$49/month (xCloud, KiloClaw early bird, OpenClawHosting.io, ClawCloud.net)
 - **Premium**: OpenClawHosting.io Business at $149/month
