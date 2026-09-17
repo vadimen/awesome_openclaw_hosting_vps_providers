@@ -6,7 +6,7 @@ A showoff comparison of OpenClaw hosting and VPS providers, highlighting pricing
 
 All providers run the same OpenClaw stack, so model support is consistent and all support BYOK. The key difference is whether AI credits or bundled models are included for free.
 
-> **Note on VPS-only options:** Hetzner and Hostinger are listed at the bottom as raw VPS providers. They can be cheaper, but they don't come with OpenClaw pre-installed or any bundled AI — you'll need to self-host and bring your own API keys.
+> **Note on VPS-only options:** Hetzner, Hostinger and vpsai.ai are listed at the bottom as raw VPS providers. None of them ships OpenClaw pre-installed, so you self-host and bring your own API keys. (vpsai.ai does bundle AI usage, but it powers its own built-in agent, not OpenClaw — see its row.)
 
 | Provider | Starting Price | AI Credits | Unique Features |
 |----------|---------------|------------|----------------|
@@ -26,6 +26,7 @@ Cheaper infrastructure options — but no OpenClaw pre-installed and no AI model
 |----------|---------------|------------|-------|
 | [Hetzner Cloud](https://www.hetzner.com/cloud/) | From €3.49/mo (~$3.80) | ❌ None | Extremely affordable EU cloud VPS, 20TB traffic, GDPR-compliant — self-install OpenClaw |
 | [Hostinger VPS](https://www.hostinger.com/vps-hosting) | From $6.49/mo | ❌ None | AMD EPYC + NVMe SSD, 1-click OpenClaw via marketplace, 30-day money-back — BYOK only |
+| [vpsai.ai](https://vpsai.ai/openclaw) | From $19/mo | ⚠️ Bundled, but not for OpenClaw — the included usage runs the machine's own built-in agent; OpenClaw needs BYOK | A full Linux **desktop** rather than a headless box: Chrome with logins that persist, its own email address, and a live screen you can take over mid-task. No root; Node 22, so OpenClaw 2026.9 needs Node 24 in your home folder |
 
 ## What Is OpenClaw?
 
@@ -33,7 +34,7 @@ OpenClaw is an open-source, self-hostable AI agent platform that runs LLM-powere
 
 ## Overview
 
-This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
+This list covers 10 OpenClaw hosting and VPS services (including 3 raw VPS options), providing details on:
 
 - 💰 Pricing plans and free AI credits
 - 🚀 Key features and differentiators
@@ -232,6 +233,37 @@ The following are standard VPS providers. They can be used to self-host OpenClaw
 - 30-day money-back guarantee
 - Trusted by 4M+ users
 - **No bundled AI models — you bring your own API keys**
+
+### vpsai.ai (AI VPS by MyClawn)
+**Website**: [https://vpsai.ai/openclaw](https://vpsai.ai/openclaw)
+
+> ⚠️ **Raw VPS — no OpenClaw pre-installed.** Each machine ships with its own
+> built-in chat agent, and the bundled AI usage is for *that* agent. OpenClaw
+> runs alongside it, installed by you, with your own API keys (BYOK). The
+> vendor states this plainly on its own OpenClaw page: "MyClawn is not managed
+> OpenClaw hosting."
+
+**Pricing (USD/month, AI usage for the built-in agent included):**
+| Plan | Burst RAM | Disk | Included AI usage | Model tiers | Price |
+|------|-----------|------|-------------------|-------------|-------|
+| Spark | 2 GB | 20 GB | included | Fast & cheap | $19/mo |
+| Surge | 4 GB | 40 GB | 2× | Fast + Balanced | $39/mo |
+| Apex | 8 GB | 80 GB | 5× | Fast + Balanced + Frontier | $79/mo |
+| Godmode | 16 GB | 160 GB | 10× | All tiers + priority compute | $159/mo |
+
+**Key Features:**
+- A real Linux desktop, not a headless server: Google Chrome, files, a terminal, streamed live to your browser
+- Browser logins persist between sessions — the reason the desktop exists
+- **Take over the screen at any moment**: click into the stream and the keyboard and mouse are yours (useful for a CAPTCHA or a login only you have), then hand it back
+- Its own email address — sends from it and receives at it
+- Remote MCP endpoint, so Claude Code or any MCP client can hand the desktop a job (`com.myclawn/desktop` in the official MCP registry)
+- 1 Gbit/s EU data-center uplink; outbound open except mail ports 25 and 465
+- Free account, no card; Stripe monthly billing, cancel any time, disk kept 30 days after cancellation
+- EU company (Austria), EU data centers
+- **No root**, Node 22 preinstalled — OpenClaw 2026.9 wants Node 24, which unpacks into the home folder
+- **No GPU** — models are called over an API, so this is not a host for self-run model weights
+- **Bundled AI does not apply to OpenClaw** — BYOK for the framework
+
 
 ## License
 
