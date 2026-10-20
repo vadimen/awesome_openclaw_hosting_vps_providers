@@ -17,6 +17,7 @@ All providers run the same OpenClaw stack, so model support is consistent and al
 | [ClawCloud.net](https://clawcloud.net/) | $49/mo | $15 included | Fastest deployment (1 minute), includes API credits |
 | [ClawHosters](https://clawhosters.com/) | €19/mo (~$21) | Gemini Flash & DeepSeek included | EU-based (Germany), multi-platform, SSH access, ZeroTier VPN, personality wizard, skill system |
 | [GetClawCloud](https://GetClawCloud.com/) | 7-Day Free Trial | 2,000,000 Daily Tokens (Trial) | Risk-Free Power: 2M free daily tokens during trial, then BYOK. NVMe persistence, SSH, dedicated EU nodes. |
+| [OpenClaw Launch](https://openclawlaunch.com/) | $3 first month, then $6/mo | $1/mo included (Lite), $10/mo (Pro); free 30-min trial, no card | Browser-based deploy in seconds, runs OpenClaw or Hermes Agent, connect Telegram, Discord, WhatsApp or WeChat, BYOK OpenRouter key supported |
 
 ### ⚠️ Raw VPS Providers (No Bundled AI)
 
@@ -33,7 +34,7 @@ OpenClaw is an open-source, self-hostable AI agent platform that runs LLM-powere
 
 ## Overview
 
-This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
+This list covers 10 OpenClaw hosting and VPS services (including 2 raw VPS options), providing details on:
 
 - 💰 Pricing plans and free AI credits
 - 🚀 Key features and differentiators
@@ -159,10 +160,25 @@ This list covers 9 OpenClaw hosting and VPS services (including 2 raw VPS option
 - Zero-Config Deployment: 1-click setup gets your OpenClaw instance online in minutes
 - Always-On Production Runtime: Self-healing infrastructure with persistent execution
 
+### 8. OpenClaw Launch
+**Website**: [https://openclawlaunch.com](https://openclawlaunch.com/)
+
+**Pricing:**
+- Free Trial: $0 for 30 minutes, no credit card
+- Lite: $3 for the first month, then $6/month ($60/year) with $1/month AI credits, 1 vCPU, 2 GB RAM, 10 GB storage
+- Pro: $20/month ($200/year) with $10/month AI credits, 2 vCPU, 4 GB RAM, 40 GB storage, up to 3 instances
+
+**Key Features:**
+- Configure and deploy from the browser, no Docker, terminal or server to manage
+- Choice of OpenClaw or Hermes Agent at the same price
+- Connect Telegram, Discord, WhatsApp or WeChat, or chat from the web dashboard
+- Included AI credits at standard OpenRouter rates, or bring your own OpenRouter key
+
 ## Key Insights
 
 ### Price Range
 - **Most Affordable (OpenClaw)**: PrimeClaws at $9.99/month — plus unlimited GPT-5.3 & DeepSeek V3.2 included
+- **Low-cost managed entry**: OpenClaw Launch at $3 for the first month, then $6/month with $1/month AI credits
 - **Standard Entry**: $24-$49/month (xCloud, KiloClaw early bird, OpenClawHosting.io, ClawCloud.net)
 - **Premium**: OpenClawHosting.io Business at $149/month
 - **Budget VPS (no AI)**: Hetzner from ~€3.49/mo, Hostinger from $6.49/mo — cheaper but require self-setup and BYOK
